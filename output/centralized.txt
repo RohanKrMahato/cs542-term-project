@@ -1,0 +1,25 @@
+Starting simulation for 'centralized' with 4 nodes and 2 requests per node.
+
+Network initialized for 4 nodes.
+[Coordinator 0] is running.
+🤔 [Node 3] wants to enter the CS.
+✅ [Node 3] has entered the critical section.
+🤔 [Node 2] wants to enter the CS.
+❌ [Node 3] is exiting the critical section.
+✅ [Node 2] has entered the critical section.
+🤔 [Node 1] wants to enter the CS.
+❌ [Node 2] is exiting the critical section.
+✅ [Node 1] has entered the critical section.
+❌ [Node 1] is exiting the critical section.
+🤔 [Node 3] wants to enter the CS.
+✅ [Node 3] has entered the critical section.
+❌ [Node 3] is exiting the critical section.
+🤔 [Node 2] wants to enter the CS.
+✅ [Node 2] has entered the critical section.
+🤔 [Node 1] wants to enter the CS.
+❌ [Node 2] is exiting the critical section.
+✅ [Node 1] has entered the critical section.
+❌ [Node 1] is exiting the critical section.
+
+--- Simulation Finished ---
+Mutual exclusion was maintained throughout the simulation.

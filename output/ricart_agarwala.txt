@@ -1,0 +1,30 @@
+Starting simulation for 'ricart-agrawala' with 4 nodes and 2 requests per node.
+
+Network initialized for 4 nodes.
+🤔 [Node 3] wants CS with timestamp 1.
+✅ [Node 3] has entered the critical section.
+🤔 [Node 0] wants CS with timestamp 3.
+🤔 [Node 2] wants CS with timestamp 3.
+❌ [Node 3] is exiting the critical section.
+✅ [Node 0] has entered the critical section.
+❌ [Node 0] is exiting the critical section.
+✅ [Node 2] has entered the critical section.
+❌ [Node 2] is exiting the critical section.
+🤔 [Node 1] wants CS with timestamp 6.
+✅ [Node 1] has entered the critical section.
+🤔 [Node 0] wants CS with timestamp 10.
+🤔 [Node 3] wants CS with timestamp 12.
+❌ [Node 1] is exiting the critical section.
+✅ [Node 0] has entered the critical section.
+🤔 [Node 2] wants CS with timestamp 14.
+❌ [Node 0] is exiting the critical section.
+✅ [Node 3] has entered the critical section.
+❌ [Node 3] is exiting the critical section.
+✅ [Node 2] has entered the critical section.
+🤔 [Node 1] wants CS with timestamp 16.
+❌ [Node 2] is exiting the critical section.
+✅ [Node 1] has entered the critical section.
+❌ [Node 1] is exiting the critical section.
+
+--- Simulation Finished ---
+Mutual exclusion was maintained throughout the simulation.

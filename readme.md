@@ -75,7 +75,7 @@ Here is an example of a terminal session to run Maekawa's algorithm with 4 nodes
 $ python main.py
 ```
 
-## Terminal Output
+## Sample Terminal Output (For Maekawa algorithm)
 
 Choose the algorithm to simulate:  
   1: Centralized  
