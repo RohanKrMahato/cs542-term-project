@@ -77,44 +77,44 @@ $ python main.py
 
 ## Terminal Output
 
-Choose the algorithm to simulate:
-  1: Centralized
-  2: Ring
-  3: Ricart Agrawala
-  4: Maekawa
-  5: Suzuki Kasami
-Enter number: 4
-Enter the number of nodes (e.g., 4): 4
-Enter the number of CS requests per node (e.g., 2): 2
+Choose the algorithm to simulate:  
+  1: Centralized  
+  2: Ring  
+  3: Ricart Agrawala  
+  4: Maekawa  
+  5: Suzuki Kasami  
+Enter number: 4  
+Enter the number of nodes (e.g., 4): 4  
+Enter the number of CS requests per node (e.g., 2): 2  
 
-Starting simulation for 'maekawa' with 4 nodes and 2 requests per node.
+Starting simulation for 'maekawa' with 4 nodes and 2 requests per node.  
 
-Network initialized for 4 nodes.
-Generated Voting Sets: {0: {0, 1, 2}, 1: {0, 1, 3}, 2: {0, 2, 3}, 3: {1, 2, 3}}
-🤔 [Node 3] wants CS, requesting from {1, 2, 3}.
-✅ [Node 3] has entered the critical section.
-🤔 [Node 2] wants CS, requesting from {0, 2, 3}.
-❌ [Node 3] is exiting the critical section.
-✅ [Node 2] has entered the critical section.
-🤔 [Node 0] wants CS, requesting from {0, 1, 2}.
-❌ [Node 2] is exiting the critical section.
-🤔 [Node 1] wants CS, requesting from {0, 1, 3}.
-✅ [Node 0] has entered the critical section.
-❌ [Node 0] is exiting the critical section.
-✅ [Node 1] has entered the critical section.
-❌ [Node 1] is exiting the critical section.
-🤔 [Node 2] wants CS, requesting from {0, 2, 3}.
-✅ [Node 2] has entered the critical section.
-❌ [Node 2] is exiting the critical section.
-🤔 [Node 3] wants CS, requesting from {1, 2, 3}.
-🤔 [Node 1] wants CS, requesting from {0, 1, 3}.
-🤔 [Node 0] wants CS, requesting from {0, 1, 2}.
-✅ [Node 3] has entered the critical section.
-❌ [Node 3] is exiting the critical section.
-✅ [Node 1] has entered the critical section.
-❌ [Node 1] is exiting the critical section.
-✅ [Node 0] has entered the critical section.
-❌ [Node 0] is exiting the critical section.
+Network initialized for 4 nodes.  
+Generated Voting Sets: {0: {0, 1, 2}, 1: {0, 1, 3}, 2: {0, 2, 3}, 3: {1, 2, 3}}  
+🤔 [Node 3] wants CS, requesting from {1, 2, 3}.  
+✅ [Node 3] has entered the critical section.  
+🤔 [Node 2] wants CS, requesting from {0, 2, 3}.  
+❌ [Node 3] is exiting the critical section.  
+✅ [Node 2] has entered the critical section.  
+🤔 [Node 0] wants CS, requesting from {0, 1, 2}.  
+❌ [Node 2] is exiting the critical section.  
+🤔 [Node 1] wants CS, requesting from {0, 1, 3}.  
+✅ [Node 0] has entered the critical section.  
+❌ [Node 0] is exiting the critical section.  
+✅ [Node 1] has entered the critical section.  
+❌ [Node 1] is exiting the critical section.  
+🤔 [Node 2] wants CS, requesting from {0, 2, 3}.  
+✅ [Node 2] has entered the critical section.  
+❌ [Node 2] is exiting the critical section.  
+🤔 [Node 3] wants CS, requesting from {1, 2, 3}.  
+🤔 [Node 1] wants CS, requesting from {0, 1, 3}.  
+🤔 [Node 0] wants CS, requesting from {0, 1, 2}.  
+✅ [Node 3] has entered the critical section.  
+❌ [Node 3] is exiting the critical section.  
+✅ [Node 1] has entered the critical section.  
+❌ [Node 1] is exiting the critical section.  
+✅ [Node 0] has entered the critical section.  
+❌ [Node 0] is exiting the critical section.  
 
---- Simulation Finished ---
-Mutual exclusion was maintained throughout the simulation.
+--- Simulation Finished ---  
+Mutual exclusion was maintained throughout the simulation.  
